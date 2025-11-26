@@ -6,8 +6,6 @@ import javax.swing.SwingUtilities;
 public class Latihan1 {
     public static void main(String[] args) {
         // Menjalankan kode GUI di Event Dispatch Thread (EDT)
-        // Ini adalah praktik terbaik untuk menghindari masalah thread
-        // Akan dijelaskan lebih detail nanti
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 // 1. Buat objek JFrame
