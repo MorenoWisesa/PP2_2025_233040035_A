@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class ContohBorderLayout {
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Contoh BorderLayout");
+        JFrame frame = new JFrame("BorderLayout");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(400, 300);
         frame.setLayout(new BorderLayout());
