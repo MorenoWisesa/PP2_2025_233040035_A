@@ -69,6 +69,7 @@ public class ManajemenNilaiSiswaApp extends JFrame {
         });
 
         return panel;
+
     }
 
     private JPanel createTablePanel() {
